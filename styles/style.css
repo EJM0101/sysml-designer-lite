@@ -1,0 +1,6 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+.app { display: flex; height: 100vh; }
+.sidebar { width: 220px; background: #f1f1f1; padding: 15px; border-right: 1px solid #ddd; }
+.sidebar button { display: block; width: 100%; margin-bottom: 10px; padding: 10px; font-size: 14px; background-color: #007bff; border: none; color: white; border-radius: 4px; cursor: pointer; }
+.sidebar button:hover { background-color: #0056b3; }
+.canvas { flex-grow: 1; position: relative; }
