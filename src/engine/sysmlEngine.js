@@ -1,4 +1,4 @@
-import * as joint from 'jointjs';
+import * as joint from '@joint/core';
 
 export function initCanvas() {
   const graph = new joint.dia.Graph();
