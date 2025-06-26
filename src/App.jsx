@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
 import Canvas from './components/Canvas';
-import './styles/style.css';
+import '../styles/style.css';
 
 function App() {
   return (
